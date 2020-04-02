@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chaty</title>
 
-    <script src='./lib/jitsi_external_api.js'></script>
-    <script src='./lib/jquery-3.4.1.min.js'></script>
+    <script src="./lib/jitsi_external_api.js"></script>
+    <script src="./lib/jquery-3.4.1.min.js"></script>
 
-    <script src='./index.js'></script>
+    <script type="module" src="./index.js"></script>
   </head>
   <body>
     <h1>Chaty</h1>
     <h2>Simple videoconference webapp based on Jitsi</h2>
 
-    <div id="meet"></div>
+    <button id="startCall">Start call</button>
+    <button id="seeCall">See call</button>
+
+    <div id="frame"></div>
   </body>
 </html>
